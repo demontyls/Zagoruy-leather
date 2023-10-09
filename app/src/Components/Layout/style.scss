@@ -1,0 +1,27 @@
+@import "../../variables";
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+nav {
+  height: $nav-height;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: $nav-height;
+  padding: $spacer;
+}
+
+footer {
+  font-size: 20px;
+  padding: 40px;
+  margin-top: auto;
+  background: rgba(gray, .2);
+}
